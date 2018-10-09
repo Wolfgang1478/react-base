@@ -1,8 +1,9 @@
 ## Plantilla para proyectos de React con Typescript
-Para iniciar un servidor de desarrolo, utilizar el comando
+
+Para instalar los paquetes que tiene el proyecto por defecto, utilizar
 
 ```sh
-npm run serve
+npm install
 ```
 
 El proyecto tiene las siguientes dependencias.
@@ -21,6 +22,12 @@ El proyecto tiene las siguientes dependencias.
     "webpack-dev-middleware": "^3.4.0",
     "webpack-dev-server": "^3.1.9",
     "webpack-hot-middleware": "^2.24.3"
+```
+
+Si se desea hacer un servidor personalizado, modificar el archivo server.js, de lo contrario iniciar un servidor de desarrolo, utilizar el comando
+
+```sh
+npm run serve
 ```
 
 El archivo src/app/components/Hello.tsx es un componente de ejemplo que genera los primeros 100 números de Fibonacci y los renderiza en una lista no ordenada.    
