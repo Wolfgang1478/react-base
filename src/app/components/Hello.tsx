@@ -1,11 +1,11 @@
 import * as React from 'react';
+import 'bootstrap';
 
-export class Hello extends React.Component <{}, {fecha: Date, datos: Array<number>}>{
+export class Hello extends React.Component <{}, {datos: Array<number>}>{
 
     constructor(props: any){
         super(props);
         this.state = {
-            fecha: new Date(),
             datos: [1 ,1]
         }
         this.calcularFibonacci(100);
