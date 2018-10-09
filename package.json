@@ -4,7 +4,9 @@
   "description": "Plantilla base para proyectos de React con Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/webpack",
+    "serv": "webpack-dev-server"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +23,7 @@
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
     "webpack-dev-middleware": "^3.4.0",
+    "webpack-dev-server": "^3.1.9",
     "webpack-hot-middleware": "^2.24.3"
   }
 }
